@@ -13,10 +13,18 @@ All phases are in exact above oreder, meaning that an event (usually a Post) wil
 # Installation
 
 1. clone the repo:
-git clone 
+```
+cd /Users/behrouz/ps
+git clone https://github.com/behrouzamiri/MatterBot.PowerShell.git
+```
 2. navigate to the repo directory:
-cd 
+```
+cd ./MatterBot.PowerShell
+```
 3. Start the bot by simply running the Bot.ps1 file:
+```
+. ./bot.ps1
+```
 
 # Configuration
 
