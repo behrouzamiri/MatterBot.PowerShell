@@ -1,0 +1,10 @@
+restricted_channels:
+  - pattern: ["channel1","mm-dev-tests"] # this must be Channel name
+    team: "Technology" # this must be team name
+    allowed_users: ["jiqwjdijasdhnuqwdbwd", "jhqjasdijhqiwdid"] # this must be userid
+  - pattern: ["channel1", "channel2"]
+    team: "Another Team"
+    allowed_users: ["user3", "user4"]
+
+bad_words:
+  pattern: ["badword1", "badword2"]
