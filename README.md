@@ -1,7 +1,8 @@
 # MatterBot.PowerShell
 
 PowerShell Bot Framework for Mattermost server.
-You can use it to bring Enterprise Edition features into MM server with your PowerShell mojo, however this can be used with Enterprise Edition as well.
+It leverages Mattermost ```WebSocket``` endpoint to provide Real-Time Event-Based functionality. but uses ```MatterPosh``` PowerShell module to take action on the mattermost server.
+You can use it to implement customized features into Mattermost Free Team Edition server with your PowerShell mojo, however this can be used with Enterprise Edition as well.
 
 The bot has 3 phases, with support of adding more phases into it. the main 3 phases are:
 1. Moderation: includes channel restriction and word filtering. usually removes posts with matching criteria
